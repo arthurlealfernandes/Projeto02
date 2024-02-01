@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(156, 156, 156);
+    font-family: arial;
+    color: black;
+    margin: auto;
+}
+header {
+    background-image: url(imagens/Black-Technology-LinkedIn-Banner-9.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: -21px;
+}
+nav ul {
+    text-align: right;
+    padding: 30px;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ccc;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border: 1px white solid;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 11px;
+}
+nav li:hover {
+    background-color: #afaeae;
+    padding: 11px;
+}
+
+header h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+header p {
+    background-color: rgba(0, 255, 255, 0.2);
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+div {
+    padding: 0 300px 0 300px;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+h2 {
+    background-color: #ccc;
+    border-bottom: 1px solid #b1b0b0;
+    padding: 5px;
+}
+
+section p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.foto {
+    width: 130px;
+    float: right;
+    border-radius: 60px;
+    padding: 30px;
+}
